@@ -23,7 +23,7 @@ This project demonstrates how to send email notifications in the background usin
 ### 1. Clone the Project
 
 ```bash
-git clone https://github.com/yourusername/bg_email_project.git
+git clone https://github.com/TewodrosAdimas/bg_email_project.git
 cd bg_email_project
 ```
 
@@ -109,14 +109,6 @@ bg_email_project/
 
 ---
 
-## 🌱 Future Enhancements
-
-- HTML email templates
-- Celery Beat for scheduled tasks
-- Django signals for post-registration email
-- Flower dashboard for task monitoring
-
----
 
 ## 📄 License
 
