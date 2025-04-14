@@ -1,5 +1,3 @@
-Here’s the updated `README.md` with a more detailed setup guide for registering users and sending emails, including the modifications we made for the registration form:
-
 ```markdown
 # 📧 Background Email Notification System with Django & Celery
 
