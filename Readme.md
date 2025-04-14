@@ -1,4 +1,4 @@
----
+Here’s the updated `README.md` with a more detailed setup guide for registering users and sending emails, including the modifications we made for the registration form:
 
 ```markdown
 # 📧 Background Email Notification System with Django & Celery
@@ -79,6 +79,16 @@ celery -A bg_email_project worker --loglevel=info
 
 ---
 
+## 📝 Registration Form and Email Notification
+
+This project includes a **registration form** that sends a **welcome email** to the user once they successfully register. 
+
+1. **Visit the registration page**: `http://127.0.0.1:8000/accounts/register/`
+2. **Submit the registration form** with valid details.
+3. **A welcome email** will be sent to the registered email address via the Celery background task.
+
+---
+
 ## 🔁 Send Test Email
 
 You can trigger an email using the Django shell:
@@ -109,7 +119,6 @@ bg_email_project/
 
 ---
 
-
 ## 📄 License
 
 MIT License
@@ -123,3 +132,4 @@ PRs and ideas are welcome! Feel free to fork this project and make it your own.
 ---
 
 ```
+
